@@ -31,6 +31,7 @@ class CardGame:
   if card1.value > card2.value:
   # The below line should have "card1" instead of "card", as "card" is not one of the parameters
     return card
+  # The below line should be an elif statement, otherwise card2 will be returned even if both cards have the same value
   else:
     return card2
   
